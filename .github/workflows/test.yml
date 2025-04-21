@@ -95,3 +95,4 @@ jobs:
         run: npx @gravityci/cli './lib/**/*' 'index.js' 'cli.js' './bin/**/*'
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
+          GRAVITY_HOST: ${{ vars.GRAVITY_HOST }}
